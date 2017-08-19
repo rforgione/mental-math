@@ -1,10 +1,11 @@
 from random import randint
 
+
 class MentalMathGame(object):
+
     def __init__(self):
         self.points = 0
         self.tries = 0
-
 
     def create_problem(self, differ_by_power_10=True):
         found_valid_problem = False
